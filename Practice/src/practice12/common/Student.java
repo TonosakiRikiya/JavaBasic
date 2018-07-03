@@ -29,4 +29,42 @@ public class Student {
 
 	/** パスワード */
 	public String password;
+
+
+	public int getStudentId() {
+		return this.studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId=studentId;
+	}
+	public String getStudentName() {
+		return this.studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName=studentName;
+	}
+	public String getCompanyName() {
+		return this.companyName;
+	}
+	public void setCompanyName(String companyName) {
+		this.companyName=companyName;
+	}
+	public String getClassName() {
+		return this.className;
+	}
+	public void setClassName(String className) {
+		this.className=className;
+	}
+	public String getMail() {
+		return this.mail;
+	}
+	public void setMail(String mail) {
+		this.mail=mail;
+	}
+	public String getPassword() {
+		return this.password;
+	}
+	public void setPassword(String password) {
+		this.password=password;
+	}
 }

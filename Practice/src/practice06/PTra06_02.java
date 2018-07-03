@@ -16,9 +16,19 @@ public class PTra06_02 {
 
 
 			// ★ 奇数回のときには、「奇数」を出力してください
-
-
+      for(int i = 1; i<=20; i++) {
 
 		//-----for end
+	switch (i % 2) {
+
+	case 0:
+		 System.out.println(i + "回目");
+      break;
+		 default:
+			 System.out.println("奇数");
+
+
 	}
+}
+}
 }

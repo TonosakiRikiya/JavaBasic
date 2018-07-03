@@ -43,23 +43,42 @@ public class PTra04_05 {
 			 * ●あいこ、又は負けた場合は、勝つまでプログラムが終わりません
 			 *
 			 * ※ プログラムは何行書いても良いです
-			 */
-			if (cpuHand == 0) {
+			uHand == 0 && myHand == 2) {
+				 */
+			if(cpuHand == 0 && myHand == 2) {
+				System.out.println("グー！");
+				System.out.println("プログラムを終了します。");
+
+
+			} else if (cpuHand == 1 && myHand == 0) {
+				System.out.println("チョキ！");
+				System.out.println("プログラムを終了します。");
+			} else if (cpuHand == 2 && myHand == 1) {
+				System.out.println("パー！");
+				System.out.println("プログラムを終了します。");
+
+			} else if (cpuHand == 2 && myHand == 0) {
+				System.out.println("パー！");
+
+			} else if (cpuHand == 2 && myHand == 2) {
+				System.out.println("パー！");
+
+			} else if (cpuHand == 1 && myHand == 1) {
+				System.out.println("チョキ！");
+
+			} else if (cpuHand == 1 && myHand == 2) {
+				System.out.println("チョキ！");
+
+			} else if(cpuHand == 0 && myHand == 1) {
+					System.out.println("グー！");
+
+			} else if(cpuHand == 0 && myHand == 0) {
 				System.out.println("グー！");
 
 
 
-			} else if (cpuHand == 1) {
-				System.out.println("チョキ！！");
-
-
-
-			} else {
-				System.out.println("パー！！");
-
-
-
 			}
+
 
 		}
 	}

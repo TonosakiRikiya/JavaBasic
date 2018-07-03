@@ -17,5 +17,14 @@ public class PTra07_02 {
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
 
+		int[] array = new int[1000];
+
+		for(int i = 0; i <1000; i++) {
+			array[i] = i+1;
+		}
+		for(int value:array) {
+			System.out.println(value);
+
+		}
 	}
 }

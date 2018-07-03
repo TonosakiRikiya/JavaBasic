@@ -9,6 +9,14 @@ package practice01;
 public class PTra01_03 {
 	public static void main(String[] args) {
 
+		int i;
+		i = 10;
+
+		System.out.println(i);
+
+	}
+}
+
 		// ★ int型の変数 i を宣言してください
 
 
@@ -16,7 +24,3 @@ public class PTra01_03 {
 
 
 		// ★ 変数 i に入っている値を出力してください
-		System.out.println(i);
-
-	}
-}
